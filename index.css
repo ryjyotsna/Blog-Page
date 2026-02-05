@@ -7,5 +7,24 @@
 
 body {
   background:#fafafa;
-  color: #111;
+  color:#111;
+}
+/* header*/
+header {
+  background: white;
+  padding: 20px 40px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.search {
+  flex: 1;
+  margin: 0 40px;
 }
