@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blog Page UI</title>
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
 
@@ -38,27 +39,29 @@
   </div>
 </section>
 
+
 <!-- filters -->
-<div class="filters">
-  <span>Popular</span>
-  <span>Discover</span>
-  <span>Animation</span>
-  <span>Branding</span>
-  <span>Mobile</span>
-  <span>Product</span>
-</div>
+<div class="filters-wrapper">
 
- <!-- filter panel -->
-<div class="filters-right">
-  <button id="filterButton">Filters</button>
-
-  <div id="filterPanel" class="filter-panel">
-    <h4>Tags</h4>
-    <h4>Color</h4>
-    <h4>Framework</h4>
+  <div class="filters">
+    <span>Popular</span>
+    <span>Discover</span>
+    <span>Animation</span>
+    <span>Branding</span>
+    <span>Mobile</span>
+    <span>print</span>
+    <span>Product</span>
+    <span>Typography</span>
+    <span>Web Design</span>
   </div>
+
+  <div class="filters-right">
+    <button id="filterButton">Filters</button>
+  </div>
+
 </div>
 
+<div class="grid">
 <!-- card -->
  <div class="card">
       <img src="https://media.istockphoto.com/id/1164102275/photo/laptops-on-the-desk.webp?a=1&b=1&s=612x612&w=0&k=20&c=hvy4ejsBEYS94Y3M91MzBqE4Gzy8KUoKNlEugQ1_bpU=">
@@ -103,7 +106,7 @@
         </div>
       </div>
     </div>
-
+</div>
   </div>
 </div>
 
@@ -114,7 +117,7 @@
 
 <!-- footer -->
 
-<footer class="site-footer">
+<footer class="blogs-footer">
 
   <div class="footer-top">
     <div class="footer-logo">Blogs</div>
@@ -130,27 +133,28 @@
       <a href="#">Support</a>
     </div>
 
+    <div class="footer-social">
+      Facebook&nbsp;&nbsp;Instagram&nbsp;&nbsp;Pinterest
+    </div>
   </div>
 
   <div class="footer-bottom">
     <span>© 2026 Blogs</span>
 
-    <div>
+    <div class="footer-bottom-links">
       <a href="#">Terms</a>
       <a href="#">Privacy</a>
       <a href="#">Cookies</a>
     </div>
 
-    <div>
-      <a href="#">Jobs</a>
-      <a href="#">Designers</a>
-      <a href="#">Freelancers</a>
-      <a href="#">Tags</a>
-      <a href="#">Places</a>
-      <a href="#">Resources</a>
+    <div class="footer-tags">
+      Jobs Designers Freelancers Tags Places Resources
     </div>
   </div>
 
 </footer>
+
+
 </body>
+
 </html>

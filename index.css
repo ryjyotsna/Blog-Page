@@ -100,6 +100,15 @@ nav a {
 .filterButton{
   margin-left: auto;
 }
+.filters-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.filters-right {
+  margin-left: auto;
+  padding-right: 40px;
+}
 
 /* GRID */
 
@@ -156,13 +165,20 @@ nav a {
   cursor: pointer;
   justify-content: flex-end;
 }
+/* load more */
+.load-more{
+  display: flex;align-items: center;
+  justify-content: center;
+}
+.load-more button{
+  
+  border-radius: 20px;
+  padding: 12px 30px;
+  border: 1px solid #ccc;
+  background: #ddd;
+  
+  
 
-
-/* FOOTER */
-
-footer {
-  text-align: center;
-  padding: 40px;
-  color: #777;
+  
 }
 
