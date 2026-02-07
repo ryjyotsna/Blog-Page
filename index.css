@@ -122,6 +122,10 @@ nav a {
 /* CARD */
 
 .card {
+<<<<<<< HEAD
+=======
+  
+>>>>>>> db98d6bf4b6f14e33bb7dbb2f14a433c95fbf106
   background: white;
   border-radius: 16px;
   overflow: hidden;
@@ -154,7 +158,9 @@ nav a {
   font-size: 13px;
   color: #666;
 }
+* GRID */
 
+<<<<<<< HEAD
 /* FILTER PANEL */
 
 #filterButton {
@@ -180,5 +186,17 @@ nav a {
   
 
   
+=======
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+  gap: 30px;
+>>>>>>> db98d6bf4b6f14e33bb7dbb2f14a433c95fbf106
 }
 
